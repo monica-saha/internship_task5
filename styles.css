@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #44ad60, #34badb);
+  
+}
+
+.form-container {
+  background-color: rgba(10, 105, 31, 0.477);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.208);
+  padding: 20px 40px;
+  width: 300px;
+ 
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.form-container label {
+  color: #fff;
+  font-size: 14px;
+}
+
+.form-container input {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  border-style: none;
+  border:  solid #ccc;
+  border-radius: 5px;
+
+ 
+  
+}
+
+.form-container input:hover{
+transform: scale(1.02);
+
+}
+
+.form-container input[type="checkbox"] {
+  width: auto;
+  
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(135deg, #44ad60, #34badb);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.form-container button:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+
+}
+
+.form-container .agreement {
+  color: #fff;
+  font-size: 12px;
+}
+
+p{
+  color: white;
+  text-align: center;
+}
+p a{
+  color: #34badb;
+  font-size: 16x;
+  text-decoration: none;
+  
+}
+
